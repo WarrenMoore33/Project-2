@@ -74,6 +74,8 @@ $searchBar.append($button);
 
 header.append($searchBar);
 
+
+
 $button.click(function () {
     let $inputValue = $input.val().toUpperCase();
     // need to put a function here to move the page to the right person
