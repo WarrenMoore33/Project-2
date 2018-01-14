@@ -65,6 +65,14 @@ appendPageLinks(studentList);
 
 const header = $('.page-header');
 const $searchBar = $('<div class="student-search"><input placeholder="Search for students..."><button>Search</button></div>');
+const $input = $('input');
 const $button = $('button');
+
 header.append($searchBar);
+
+$button.click(function () {
+    let $inputValue = $input.val().toUpperCase();
+    console.log($inputValue);
+});
+
 
