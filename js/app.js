@@ -62,3 +62,9 @@ function showPage(pageNumber, studentList) {
 }
 //Calling the APPENDPAGELINKS to run it all for the 1st page
 appendPageLinks(studentList);
+
+const header = $('.page-header');
+const $searchBar = $('<div class="student-search"><input placeholder="Search for students..."><button>Search</button></div>');
+const $button = $('button');
+header.append($searchBar);
+
